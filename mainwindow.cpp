@@ -108,7 +108,7 @@ void MainWindow::on_pushButton_5_clicked() // auto win
                 }
 
             }
-            else {
+            else if (val == 0x0F){
                 if (!ui->checkBox->isChecked()){
                     ::PostMessage(hWnd, WM_LBUTTONDOWN, MK_LBUTTON, *(int *)pos);
                     ::PostMessage(hWnd, WM_LBUTTONUP, 0, *(int *)pos);
