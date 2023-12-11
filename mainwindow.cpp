@@ -125,10 +125,10 @@ void MainWindow::on_comboBox_activated(int index)
         dpi = 1;
         break;
     case 1:
-        dpi = 1.33;
+        dpi = 1.25;
         break;
     case 2:
-        dpi = 1.6;
+        dpi = 1.5;
         break;
     case 3:
         dpi = 2;
